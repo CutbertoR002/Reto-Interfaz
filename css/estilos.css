@@ -6,6 +6,10 @@
 .interfaz{
     color: white;
 }
+#HoraActual{
+    font-size: 18px;
+    margin-left: 7px;
+}
 .contenedores {
 	margin-left: 4cm;
     margin-right: 4cm;
