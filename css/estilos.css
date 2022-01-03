@@ -2,9 +2,9 @@
 	margin: 0;
 	padding: 0;
     font-size: 18px;
-    background-color: white;
-    opacity: 95%;
-    color: black;
+}
+.interfaz{
+    color: white;
 }
 .contenedores {
 	margin-left: 4cm;
@@ -20,6 +20,12 @@
     font-size: 24px;
     text-align: center;
     background-color: white;
+}
+.saludo2{
+    color: red;
+    font-size: 18px;
+    text-align: left;
+    background-color: aqua;
     opacity: 80%;
 }
 .inicio {
@@ -50,11 +56,13 @@
 }
 .listadeTreas{
     background-image: url(https://i.pinimg.com/736x/de/c7/74/dec774f04e79d00867beec64e23d5f8b.jpg);
-    background-repeat:repeat;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 .lista{
     background-color: white;
     opacity:80%;
     width: 100%;
+    border: red 5px solid;
 }
