@@ -29,7 +29,7 @@ function agregarTarea(){
 	//arreglo para contener todos los datos y despues solo recorrerlo
 		let contenedorDat = [contenido, contenido1, contenido2,
 					contenido3, contenido4, button1];
-		// for prara manejar el arreglo de registros
+		// do para manejar el arreglo de registros
 		
 		do {
 			//crea espacios para agregar los registros
@@ -57,6 +57,7 @@ $('body').on('click', '.eliminarcont', function() {
 })
 
 
+//tiempo 
 showTime();
 function showTime(){
 	myDate = new Date();

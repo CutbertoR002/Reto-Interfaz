@@ -36,6 +36,9 @@
 	background-color:midnightblue;
 	color: #fff;
 }
+.form-label{
+    margin-top: 10px;
+}
 .inicio .interfaz input[type=text] {
     width: 100%;
 }
@@ -52,8 +55,8 @@
     background-color:midnightblue;
     margin-left: 45%;
     margin-right: 45%;
-    margin-top: 2.5cm;
-    margin-bottom: 2.5cm;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
 }
 .inicio .interfaz .boton:hover {
     background-color:black;
