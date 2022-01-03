@@ -10,9 +10,11 @@
 </head>
 <body>
     <div class="inicio">
+        <a name="mi-ancla2"></a>
         <img src="./img/logo.png" alt="" class="logo">
         <h1 id="HoraActual"> </h1>
         <div class="contenedores">
+            
             <p class="saludo">Interfaz para registro de tareas </p>
         
             <form class="interfaz" action="">
@@ -25,12 +27,14 @@
                 <label id="tituloEntrega" for="entregaAdd" class="form-label">Fecha de cumplimiento</label>
                 <input type="datetime-local" id="entregaAdd">
                 <label id="status1" for="statusAdd" class="form-label">Status</label>
-                <input type="text" id="statusAdd" placeholder="Status: En proceso, Terminada, Retrasada, Eliminada">
+                <input class="tar3" type="text" id="statusAdd" placeholder="Status: En proceso, Terminada, Retrasada, Eliminada">
                 <input type="button" class="boton" id="buttonAdd" value="Agregar Tarea">
             </form>
+            <a class="ver" href="#mi-ancla">---IR TABLA---</a>
         </div>
     </div>
     <div class="listadeTreas">
+        <a name="mi-ancla"></a>
         <div class="contenedores">
             <p class="saludo2">OAINFES5UV22113 - SOFTWARE DE SISTEMAS - Javascript </p>
             <table class="lista" id="lista" border="5">
@@ -51,6 +55,7 @@
                     <td><input  type="button" class="eliminarcont" value="Borrar"/></td>
                 </tr>
             </table>
+            <a class="ver" href="#mi-ancla2">--IR FORMULARIO--</a>
         </div>
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>

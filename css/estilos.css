@@ -36,16 +36,29 @@
 	background-color:midnightblue;
 	color: #fff;
 }
+.ver{
+    background-color: white;
+    color: black;
+}
 .form-label{
     margin-top: 10px;
 }
 .inicio .interfaz input[type=text] {
-    width: 100%;
+    width: 70%;
 }
 .inicio .interfaz input[type=datetime-local] {
     width: 20%;
     margin-left:6.8%;
     margin-right: 6.8%;
+}
+.tar{
+    margin-left: 9%;
+}
+.tar1{
+    margin-left: 10.5%;
+}
+.tar3{
+    margin-left: 24%;
 }
 .inicio .interfaz .boton {
 	color:white;
