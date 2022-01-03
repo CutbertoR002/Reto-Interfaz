@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="inicio">
+        <img src="./img/logo.png" alt="" class="logo">
+        <div class="contenedores">
+            <p class="saludo">Interfaz para registro de tareas </p>
+            <form class="interfaz" action="">
+                <label id="tituloTarea" for="tar" class="form-label">Descripción de la actividad</label>
+                <input class="tar" type="text" id="tareaAdd" placeholder="Investigar sobre el calentamiento global">
+                <label id="NombreResponsable" for="tar1" class="form-label">Nombre del responsable</label>
+                <input class="tar1" type="text" id="integranteAdd" placeholder="Cutberto Rojas Ortega ">
+                <label id="tituloRegistro" for="tar2" class="form-label">Fecha de registro</label>
+                <input class="tar2" type="datetime-local" id="registroAdd">
+                <label id="tituloEntrega" for="entregaInput" class="form-label">Fecha de cumplimiento</label>
+                <input type="datetime-local" id="entregaAdd">
+                <input type="text" id="statusAdd" placeholder="Status: En proceso, Terminada, Retrasada, Eliminada">
+                <input type="button" class="boton" id="buttonAdd" value="Agregar Tarea">
+            </form>
+        </div>
+    </div>
+    <div class="listadeTreas">
+        <div class="contenedores">
+            <table class="lista" id="lista">
+                <thead>
+                    <th>Tarea</th>
+                    <th>Responsable</th>
+                    <th>Fecha de inicio</th>
+                    <th>Fecha de fin</th>
+                    <th>Status</th>
+                    <th>Eliminar</th>
+                </thead>
+                <tr>
+                    <td >Crear Bitacora JavaScrip</td>
+                    <td >Cutberto Rojas</td>
+                    <td >01/01/2022</td>
+                    <td>05/02/2022</td>
+                    <td >En preceso</td>
+                    <td><input  type="button" class="eliminarcont" value="Borrar"/></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="./js/functions.js"></script>
+</body>
+</html>

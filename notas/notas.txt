@@ -1,0 +1,19 @@
+function edit_row(){
+	var tar=document.getElementById("tar_row");
+	var name=document.getElementById("name_row");
+	var reg=document.getElementById("reg_row");
+	var ent=document.getElementById("ent_row");
+	var sta=document.getElementById("sta_row");
+	
+	var tar_data=tar.innerHTML;
+	var name_data=name.innerHTML;
+	var reg_data=reg.innerHTML;
+	var ent_data=ent.innerHTML;
+	var sta_data=sta.innerHTML;
+	
+	tar.innerHTML="<input type='text' id='tar_row' value='"+tar_data+"'>";
+	name.innerHTML="<input type='text' id='name_row' value='"+name_data+"'>";
+	reg.innerHTML="<input type='datetime-local' id='reg_row' value='"+reg_data+"'>";
+	ent.innerHTML="<input type='datetime-local' id='ent_row' value='"+ent_data+"'>";
+	sta.innerHTML="<input type='text' id='sta_row' value='"+sta_data+"'>";
+}
