@@ -56,12 +56,20 @@
     margin-right: 6.8%;
 }
 .tar{
-    margin-left: 9%;
+    margin-left: 10%;
 }
 .tar1{
-    margin-left: 10.5%;
+    margin-left: 12%;
+}
+.tar2{
+    font-weight: 900;
+    font-size: 24px;
 }
 .tar3{
+    font-weight: 900;
+    font-size: 24px;
+}
+.tar4{
     margin-left: 24%;
 }
 .inicio .interfaz .boton {
