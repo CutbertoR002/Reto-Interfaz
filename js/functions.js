@@ -66,10 +66,18 @@ function agregarTarea(){
 				const response = await fetch(deleteUrl,{method: methodSend});
 				const data = await response.json();
 			}
+			this.allTask = async function(){
+				const methodSend = "GET";
+				const response = await fetch(deleteUrl,{method: methodSend});
+				const data = await response.json();
+				console.log(data);
+				lista.appendChild(data);
+			}	
 		}
 		var resultado1 = window.confirm('Confirmación para agregar a la API?');
 		if (resultado1 === true) {
 			myApp.addTask({tarea},{status},{integrante},{entrega},{registro});
+			myApp.allTask();
 		window.alert('Accion completada!.');
 		} else { 
 		window.alert('Accion cancelada...');
@@ -81,7 +89,7 @@ function agregarTarea(){
 		var resultado = window.confirm('Confirmación de eliminación?');
 		if (resultado === true) {
 			$(this).parents("TR").remove(); 
-			myApp.deleteTask( idTask,{agregarNuevaTarea} );
+			myApp.deleteTask( idTask );
 		window.alert('Eliminación completa!.');
 		} else { 
 		window.alert('Operación cancelada...');
